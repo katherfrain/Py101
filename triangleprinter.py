@@ -1,5 +1,5 @@
 triangle_height = int(input("How many lines would you like this triangle to be? "))
-triangle_iterator = int((triangle_height/2))
+triangle_iterator = int(triangle_height+1)
 count = 0
 
 while count < triangle_height:
@@ -8,7 +8,7 @@ while count < triangle_height:
     if count == 1:
         print((" " * triangle_iterator), ("*" * count))
     else:
-        print((" " * triangle_iterator), ("*" * (count*2)))
+        print((" " * triangle_iterator), ("*" * ((count*2)-1)))
 
 
     
