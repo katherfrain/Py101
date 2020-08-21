@@ -8,7 +8,7 @@
 board_height = int(input("How many rows would you like your Tic-Tac-Toe board to have? "))
 board_width = int(input("And how many columns would you like it to have? "))
 counter = 0
-boxvalue = "|__|"
+boxvalue = "|__"
 
 #the first line will be constructed differently
 # because the top row is just a row of underscores
@@ -27,5 +27,5 @@ print("So the top-left corner is 1A, the box after that is 2A, etc.")
 
 while wincondition == False:
     userX = int(input("Pick a box to put your X into!"))
-    
+
     
